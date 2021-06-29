@@ -129,5 +129,8 @@ def assets_del_package():
     return jsonify(success=True)
 
 
-# @bp.route('/assets_search.do/', methods=['POST'])
-# def assets_del_package():
+@bp.route('/assets_search.do/', methods=['POST'])
+def assets_search():
+    data = request.get_json()
+    print(data)
+    return jsonify(success=True)

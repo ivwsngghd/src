@@ -44,3 +44,4 @@ def check_id(params):
         error_msg = '传入参数格式有误'
         success = False
     return _id, success, error_code, error_msg
+
